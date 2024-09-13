@@ -685,6 +685,7 @@ section {
   justify-content: center;
   align-items: center;
 }
+
 @media (max-width: 768px) {
   .info-box {
     flex-direction: row;
@@ -698,6 +699,10 @@ section {
 @media (max-width: 576px) {
   .time-unit h4 {
     font-size: 20px;
+  }
+
+  .time-box{
+    margin-right: 30px;
   }
   .info-box {
     flex-direction: row;
